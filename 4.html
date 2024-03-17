@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var marks = {
+            "maths": 34,
+            "english": 56,
+            "science": 32,
+            "hindi": 75,
+            "social science": 65
+        };
+
+        //Print the percentage of the marks of the student.
+        var sum=0;
+        var count=0;
+        for(var x in marks){
+            sum=sum+marks[x];
+            count++
+        }
+        console.log(sum/count)
+
+    </script>
+</body>
+</html>
