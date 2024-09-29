@@ -9,6 +9,24 @@
     <script>
         //Print the highest scored subject.
 
+        var marks = {
+            "maths": 12,
+            "english": 39,
+            "science": 32,
+            "hindi": 24,
+            "social science": 19
+        };
+        var a=false;
+        var b;
+        for(var x in marks){
+            if(marks[x]>35){
+                b=!a
+            }
+        }
+        console.log(b);
+
+
+
     </script>
 </body>
 </html>

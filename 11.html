@@ -17,12 +17,14 @@
 
         //Print the least scored subject.
         var min=+Infinity;
+        var a;
         for(var x in marks){
             if(marks[x]<min){
-                min=marks[x]
+                min=marks[x]; 
+                a=x; 
             }
         }
-        console.log(min+"",x)
+        console.log(min,a)
 
     </script>
 </body>
